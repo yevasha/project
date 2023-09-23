@@ -1,0 +1,194 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+	font-size: 15px 
+	color: #000000;
+
+}
+
+p {
+    margin: 0;
+}
+.target__index {
+    border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 15px;
+	margin: 0 auto;
+    width: 40px;
+	height: 40px;
+ }
+
+ target__text { 
+    margin-top: 15px;
+  }
+
+.target__item { 
+width: 273px;
+padding: 125px 30px;
+box-sizing: border-box;
+text-align: center;
+box-shadow: 0px 4px 30px 0px #0000001A;
+
+}
+
+{ 
+    box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+}
+
+.container {
+	width: 1140px;
+margin: 0 auto;
+}	
+	
+.header  {
+background: #1326CE;
+color: #fff;
+padding: 77px 0 173px;
+} 
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav__logo {
+	display: block;
+}
+
+.nav__mail {
+	color: #fff;
+	display: block;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.nav__mail:hover {
+	border-bottom: 1px solid rgba(255, 255, 255, 1)
+}
+
+.offer {
+margin-top: 157px;
+}
+
+.offer__title {
+	font-weight: 800;
+	font-size: 80px;
+	line-height: 1.32em
+}
+
+.offer__people {
+	display: flex;
+	margin-top: 49px;
+	margin-bottom: 40px;
+}
+
+.offer__img {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin-right: 26px;
+}
+
+.offer__title_small {
+	font-size: 18px;
+	text-transform: none;
+	font-weight: 700;
+}
+
+¨.offer__intro {
+	line-height: 1.32em;
+	margin-top: 8px;
+}
+
+.offer__text {
+background: #0E20BF;
+border-radius: 10px;
+padding: 26px;
+width: 510px;
+}
+
+section {
+	padding-top: 128px;
+}
+
+.section-title {
+	font-weight: 800;
+	font-size: 35px;
+}
+
+.skills {
+	border-collapse: collapse;
+	border: 1px solid black;
+	margin-top: 59px;
+}
+
+.skills__cell {
+	border: 1px solid black;
+	text-align: center;
+	padding: 17px 0;
+	width: 25%;
+}
+
+.skills__cell_head {
+	background: #E8E8E8;
+	padding: 16px 0;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+.target {
+    margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.target-item {
+	width: 273px;
+	box-shadow: 0px 4px 30px rgb;
+	text-align: center;
+	padding: 114px 28px 136px 20px;
+}
+
+.target-index {
+	width: 40px;
+	height: 40px;
+	background: #3AA629;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 15px;
+	margin: 0 auto;
+}
+.target__index_green {
+	background: #3AA629;
+}
+.target__index_orange {
+	background: #FF8038;
+}
+.target__index_purple {
+	background: #903EF9;
+}
+.target__index_pink {
+	background: #F93E98;
+}
